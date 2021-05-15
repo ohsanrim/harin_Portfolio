@@ -18,10 +18,10 @@ public class HomeController {
 		
 	}
 	
-	@RequestMapping(value = "/dashboard/main", method=RequestMethod.GET) 
-	public String dashboard(HttpServletRequest request) { 
+	@RequestMapping(value = "/", method=RequestMethod.GET) 
+	public String dashboard() { 
 		System.out.println("dashboard enter");
-		return "/dashboard/main"; 
+		return "/dashboard/ajaxTest"; 
 		
 	}
 
